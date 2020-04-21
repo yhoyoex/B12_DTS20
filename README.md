@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://digitalent.kominfo.go.id/assets/@images/logo.png" width="100">
+<img src="https://digitalent.kominfo.go.id/assets/@images/logo.png" width="200">
 </p>
 
 ## Tim B12 DTS 2020
