@@ -1,7 +1,6 @@
 
 <img src="https://digitalent.kominfo.go.id/assets/@images/logo.png" width="200">
 </p>
-   <h3>Tim B12 DTS 2020</h3>
    
 ##Tim B12 DTS 2020
 
