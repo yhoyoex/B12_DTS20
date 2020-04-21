@@ -1,4 +1,4 @@
-
+<p align="center">
 <img src="https://digitalent.kominfo.go.id/assets/@images/logo.png" width="200">
 </p>
    
