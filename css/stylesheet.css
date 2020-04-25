@@ -184,14 +184,14 @@ header {
 }
 
 .extra1 .flex-container .nama{
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   display: block;
 }
 
 .extra1 .flex-container .email{
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   display: block;
 }
