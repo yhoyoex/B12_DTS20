@@ -149,7 +149,57 @@ header {
 /*------------- start extra1 css ------------------*/
 
 .extra1 {
+  margin-top: 100px;
+}
 
+.extra1 .tim-section {
+  margin-top:50px;
+}
+
+.extra1 .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.extra1 .flex-container .flex-list {
+  width: 20%;
+  padding: 10px;
+  flex: auto;
+}
+
+.extra1 .flex-container .tim-card {
+  border-radius: 7px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  transition: transform 0.2s;
+  padding: 20px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.extra1 .flex-container img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.extra1 .flex-container .nama{
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.extra1 .flex-container .email{
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.extra1 .flex-container div:hover {
+  transform: scale(1.1);
 }
 
 /*------------- end extra1 css --------------------*/
