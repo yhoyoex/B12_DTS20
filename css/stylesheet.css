@@ -87,6 +87,7 @@ hr.line {
   color: lightgray;
   opacity: 1;
 }
+
 /*------------- end default.css ------------------*/
 
 /*------------- start header css ------------------*/
@@ -202,6 +203,35 @@ header {
   outline: none !important;
   border:1px solid #8E54E9;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.extra2 .alert {
+  padding: 20px;
+  color: white;
+  display: none;
+}
+
+/*.extra2 .alert-danger {*/
+/*  background-color: #e74c3c;*/
+/*}*/
+
+/*.extra2 .alert-success {*/
+/*  background-color: #2ecc71;*/
+/*}*/
+
+.extra2 .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.extra2 .closebtn:hover {
+  color: black;
 }
 
 /*------------- end extra2 css --------------------*/
