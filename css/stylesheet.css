@@ -1,3 +1,94 @@
+/*------------- start default.css ------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Console", Monaco, monospace;
+  background-image: url("../img/bg.svg");
+  background-repeat: repeat-y;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  color: #666666;
+  font-size: 26px;
+  /*font-weight:700;*/
+}
+
+hr.line {
+  background: -webkit-linear-gradient(to right, #4776E6, #8E54E9);
+  background: linear-gradient(to right, #4776E6, #8E54E9);
+  height: 5px;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.9);
+  background-color: #8E54E9;
+  box-shadow: 0 2px 25px rgba(115, 104, 255, 0.2);
+}
+.btn.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-default {
+  background: -webkit-linear-gradient(to right, #4776E6, #8E54E9);
+  background: linear-gradient(to right, #4776E6, #8E54E9);
+  color:#ecf0f1;
+}
+
+.text-default {
+  color:#8E54E9;
+}
+
+.text-abu {
+  color:#95a5a6;
+}
+
+::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+/*------------- end default.css ------------------*/
+
 /*------------- start header css ------------------*/
 header {
   height: 65px;
