@@ -194,6 +194,7 @@ header {
   font-size: 10px;
   font-weight: bold;
   display: block;
+  margin-bottom: 20px;
 }
 
 .extra1 .flex-container div:hover {
