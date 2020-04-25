@@ -1,9 +1,22 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-
+	/*start extra2*/
+	.extra2 {
+		padding:20px;
+	}
+	
+	.extra2 .contact-section {
+		margin: 0 auto;
+		padding: 40px;
+		background-color: white;
+		width: 100%;
+		border-radius: 8px;
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+	}
+	/*end extra2*/
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-	
+
 }
