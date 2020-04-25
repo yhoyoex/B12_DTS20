@@ -87,6 +87,7 @@ hr.line {
   color: lightgray;
   opacity: 1;
 }
+
 /*------------- end default.css ------------------*/
 
 /*------------- start header css ------------------*/
@@ -156,8 +157,81 @@ header {
 
 /*------------- start extra2 css ------------------*/
 
-.extra1 {
+.extra2 {
+  margin-top: 100px;
+  background-image: url("../img/bg2.svg");
+  padding:40px;
+}
 
+.extra2 p{
+  text-align: center;
+  margin: 40px;
+}
+
+.extra2 .contact-section {
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.extra2 .form-title {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  display: block;
+  
+}
+
+.extra2 button {
+  margin-top: 20px;
+  display: block;
+  text-align: right;
+  
+}
+
+.extra2 form input, .extra2 form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+.extra2 form input:focus, .extra2 form textarea:focus {
+  outline: none !important;
+  border:1px solid #8E54E9;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.extra2 .alert {
+  padding: 20px;
+  color: white;
+  display: none;
+}
+
+/*.extra2 .alert-danger {*/
+/*  background-color: #e74c3c;*/
+/*}*/
+
+/*.extra2 .alert-success {*/
+/*  background-color: #2ecc71;*/
+/*}*/
+
+.extra2 .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.extra2 .closebtn:hover {
+  color: black;
 }
 
 /*------------- end extra2 css --------------------*/

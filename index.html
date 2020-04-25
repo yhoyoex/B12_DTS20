@@ -20,8 +20,33 @@
     </header>
     <div class="utama"></div>
     <div class="extra1"></div>
-    <div class="extra2"></div>
-    <footer class="footer"></footer>
+		
+		<!--	start	extra2 -->
+		<div class="extra2">
+			<div class="container">
+				<h2 class="section-title">HUBUNGI KAMI</h2>
+				<hr width="100px;" class="line">
+				<p class="text-abu"><i>Untuk informasi lebih lanjut, silahkan hubungi kami pada form dibawah ini</i></p>
+				<div class="contact-section">
+					<div id="alert_kontak" class="alert alert-danger">
+						<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+						<span id="alert_status"></span>
+					</div>
+					<form class="form-contact">
+						<strong class="form-title text-default">Nama Lengkap :</strong>
+						<input id="nama" placeholder="Nama Lengkap">
+						<strong class="form-title text-default">Alamat Email :</strong>
+						<input id="email" placeholder="Email">
+						<strong class="form-title text-default">Pesan :</strong>
+						<textarea id="pesan" rows="10" placeholder="Pesan"></textarea>
+						<button type="button" class="btn btn-default" onclick="send_email()"><i class="fa fa-paper-plane"></i>Kirim</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--	end	extra2 -->
+  
+		<footer class="footer"></footer>
     <script src="js/script.js"></script>
   </body>
 </html>
