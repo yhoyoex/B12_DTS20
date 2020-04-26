@@ -368,10 +368,6 @@ header {
 
 /*------------- start footer css ------------------*/
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
