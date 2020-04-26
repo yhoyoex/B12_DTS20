@@ -78,5 +78,9 @@ footer {
   padding-bottom: 20px;
   background-color: blue;
 }
+p  {
+  letter-spacing: 3px;
+  color: #ecf0f1;
+}
 
 /*------------- end footer css ------------------*/
