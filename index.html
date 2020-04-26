@@ -15,21 +15,24 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
   </head>
   <body>
+	<!--	start	header -->
     <header class="header">
       <div class="container">
 				<div class="header-left">
 					<a href="#"><img class="logo" src="img/logo-panjang-putih.png"></a>
 				</div>
-				<span class="fa fa-bars menu-icon"></span>
-				<div class="header-right">
-					<a href="#" class="text-biru">Home</a>
-					<a href="#" class="text-biru">Tim B12</a>
-					<a href="#" class="login text-biru">Kontak</a>
+				<span class="fa fa-bars menu-icon" onclick="menu()"></span>
+				<div class="header-right" id="top_menu">
+					<a href="javascript:;" onclick="view_content('utama')">Home</a>
+					<a href="javascript:;" onclick="view_content('tim')">Tim B12</a>
+					<a href="javascript:;" onclick="view_content('kontak')">Kontak</a>
 				</div>
 			</div>
     </header>
-		<!--	start	utama -->
-		<div class="utama">
+	<!--	end	header -->
+	
+	<!--	start	utama -->
+		<div class="utama" id="utama">
 			<div class="slideshow-container">
 				<div class="slide fade">
 					<img width="400px" src="img/slider1.png">
@@ -57,9 +60,9 @@
 			</div>
 		</div>
 		<!--	end utama-->
-    
+  
 		<!--	start	extra1 -->
-		<div class="extra1">
+		<div class="extra1" id="tim">
 			<div class="container">
 				<h2 class="section-title">TIM B12</h2>
 				<hr width="100px;" class="line">
@@ -107,7 +110,7 @@
 		<!--	end	extra1 -->
 		
 		<!--	start	extra2 -->
-		<div class="extra2">
+		<div class="extra2" id="kontak">
 			<div class="container">
 				<h2 class="section-title">HUBUNGI KAMI</h2>
 				<hr width="100px;" class="line">
