@@ -74,9 +74,16 @@ header {
 
 /*------------- start footer css ------------------*/
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: blue;
+  background: -webkit-linear-gradient(to right, #4776E6, #8E54E9);
+  background: linear-gradient(to right, #4776E6, #8E54E9);
+  box-shadow:inset 0 15px 5px -16px #111;
 }
 p  {
   letter-spacing: 3px;
