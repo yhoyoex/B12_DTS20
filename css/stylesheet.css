@@ -94,15 +94,18 @@ hr.line {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background: -webkit-linear-gradient(to right, #4776E6, #8E54E9);
+  background: linear-gradient(to right, #4776E6, #8E54E9);
   position :fixed;
   top: 0;
   z-index: 10;
+  box-shadow:inset 0 -15px 5px -16px #111;
+  opacity: 0.9;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 120px;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -112,6 +115,7 @@ header {
 .header-right {
   float: right;
   margin-right: -25px;
+  overflow: hidden;
 }
 
 .header-right a {

@@ -1,3 +1,22 @@
+// ==================== Start menu responsive ====================
+menu = () => {
+  var menu = document.getElementById("top_menu");
+  if (menu.className === "header-right") {
+    menu.className += " responsive";
+  } else {
+    menu.className = "header-right";
+  }
+}
+
+view_content = (content) => {
+  var view = document.getElementById(content);
+  window.scrollTo({
+    top: view.offsetTop - 100,
+    behavior: 'smooth'
+  });
+}
+// ==================== end menu responsive ====================
+
 // ==================== Start SLider ====================
 var slideIndex = 1;
 showSlides(slideIndex);
