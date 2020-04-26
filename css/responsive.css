@@ -1,0 +1,52 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+	/*start extra1*/
+	.extra1 {
+		margin-top: 20px;
+	}
+	.extra1 .flex-container .flex-list {
+		width: 50%;
+		flex: none;
+		padding: 20px;
+	}
+	
+	.extra1 .flex-container .tim-card {
+		text-align: center;
+		padding: 40px;
+	}
+	
+	.extra1 .flex-container img {
+		max-width: 50%;
+	}
+	/*end extra1*/
+
+	/*start extra2*/
+	.extra2 {
+		padding:20px;
+	}
+	
+	.extra2 .contact-section {
+		margin: 0 auto;
+		padding: 40px;
+		background-color: white;
+		width: 100%;
+		border-radius: 8px;
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+	}
+	/*end extra2*/
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+	
+	/*start extra1*/
+	.extra1 {
+		margin-top: 50px !important;
+	}
+	
+	.extra1 .flex-container .flex-list {
+		width: 100%;
+	}
+	/*end extra1*/
+
+}
