@@ -14,6 +14,7 @@ view_content = (content) => {
     top: view.offsetTop - 100,
     behavior: 'smooth'
   });
+  menu();
 }
 // ==================== end menu responsive ====================
 
@@ -76,6 +77,7 @@ send_email = () => {
     document.getElementById("alert_kontak").style.backgroundColor="#2ecc71";
     document.getElementById("alert_kontak").style.display='block';
     document.getElementById("alert_status").innerHTML = `Terimakasih ${nama} telah menghubungi kami`;
+    document.getElementById("form_kontak").reset();
   }
 
 }
