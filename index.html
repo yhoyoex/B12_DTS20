@@ -10,10 +10,8 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/animasi.css" />
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="shortcut icon" href="img/favicon.ico" />
   </head>
   <body>
@@ -30,10 +28,130 @@
 				</div>
 			</div>
     </header>
-    <div class="utama"></div>
-    <div class="extra1"></div>
-    <div class="extra2"></div>
-    <footer class="footer"></footer>
+		<!--	start	utama -->
+		<div class="utama">
+			<div class="slideshow-container">
+				<div class="slide fade">
+					<img width="400px" src="img/slider1.png">
+				</div>
+		
+				<div class="slide fade">
+					<img width="400px" src="img/slider2.png">
+				</div>
+		
+				<div class="slide fade">
+					<img width="400px" src="img/slider3.png">
+				</div>
+		
+				<div class="slide fade">
+					<img width="400px" src="img/slider4.png">
+				</div>
+				<div class="controls">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+				</div>
+				<a class="prev" onclick="plusSlides(-2)">&#10094;</a>
+				<a class="next" onclick="plusSlides(0)">&#10095;</a>
+			</div>
+		</div>
+		<!--	end utama-->
+    
+		<!--	start	extra1 -->
+		<div class="extra1">
+			<div class="container">
+				<h2 class="section-title">TIM B12</h2>
+				<hr width="100px;" class="line">
+				<div class="tim-section">
+					<div class="flex-container">
+						<div class="flex-list">
+							<div class="tim-card">
+								<img src="img/default.jpg">
+								<span class="nama text-default">Pidapoon<i class="text-abu">#7296</i></span>
+								<span class="email text-hitam">chaedirdwiantara@gmail.com</span>
+							</div>
+						</div>
+						<div class="flex-list">
+							<div class="tim-card">
+								<img src="img/default.jpg">
+								<span class="nama text-default">Yhoyoex<i class="text-abu">#9849</i></span>
+								<span class="email text-hitam">bayutrisnapati@gmail.com</span>
+							</div>
+						</div>
+						<div class="flex-list">
+							<div class="tim-card">
+								<img src="img/default.jpg">
+								<span class="nama text-default">Bagus Ikhsani<i class="text-abu">#1576</i></span>
+								<span class="email text-hitam">bzidan92@gmail.com</span>
+							</div>
+						</div>
+						<div class="flex-list">
+							<div class="tim-card">
+								<img src="img/default.jpg">
+								<span class="nama text-default">Bekti Utomo<i class="text-abu">#1924</i></span>
+								<span class="email text-hitam">bekti21utomo@gmail.com</span>
+							</div>
+						</div>
+						<div class="flex-list">
+							<div class="tim-card">
+								<img src="img/default.jpg">
+								<span class="nama text-default">A.ihwana<i class="text-abu">#0871</i></span>
+								<span class="email text-hitam">andirima84@gmail.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--	end	extra1 -->
+		
+		<!--	start	extra2 -->
+		<div class="extra2">
+			<div class="container">
+				<h2 class="section-title">HUBUNGI KAMI</h2>
+				<hr width="100px;" class="line">
+				<p class="text-abu"><i>Untuk informasi lebih lanjut, silahkan hubungi kami pada form dibawah ini</i></p>
+				<div class="contact-section">
+					<div id="alert_kontak" class="alert alert-danger">
+						<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+						<span id="alert_status"></span>
+					</div>
+					<form class="form-contact">
+						<strong class="form-title text-default">Nama Lengkap :</strong>
+						<input id="nama" placeholder="Nama Lengkap">
+						<strong class="form-title text-default">Alamat Email :</strong>
+						<input id="email" placeholder="Email">
+						<strong class="form-title text-default">Pesan :</strong>
+						<textarea id="pesan" rows="10" placeholder="Pesan"></textarea>
+						<button type="button" class="btn btn-default" onclick="send_email()"><i class="fa fa-paper-plane"></i>Kirim</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--	end	extra2 -->
+
+		<!--	start	footer -->
+		<footer class="footer">
+			<a href="#" class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"style="color: #3b5999"></i>
+				<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+			</a>
+			<a href="#" class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"style="color:#55acee"></i>
+				<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+			</a>
+			<a href="#" class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"style="color:#e4405f"></i>
+				<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+			</a>
+			<a href="#" class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"style="color:#cd201f"></i>
+				<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+			</a>
+		<p>Digital Talent Scholarship 2020</p>
+    </footer>
+			<!--	end	footer -->
     <script src="js/script.js"></script>
   </body>
 </html>
