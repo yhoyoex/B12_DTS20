@@ -256,6 +256,19 @@ header {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.extra1 .tim-kontak {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.extra1 .tim-kontak > div {
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
 .extra1 .flex-container img {
   max-width: 80%;
   height: auto;
@@ -275,6 +288,7 @@ header {
   font-weight: bold;
   display: block;
   margin-bottom: 20px;
+  color: #666666;
 }
 
 .extra1 .flex-container div:hover {
